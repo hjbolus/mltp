@@ -102,7 +102,7 @@ FOL proofs are allowed to introduce any tautology on a new line, with 'tautology
 You can inline proofs using `Prover` objects by using the method `add_proof()` of class `Prover`. This automatically adjusts line numbers so that the proof remains valid.
 
 ## Additions
-Of note, I added a file called `operators.py`, with functions that translate a formula that uses one set of operators to one that uses a different set. This is similar to the file `Operators.py` in Propositions, with the addition that it is used to allow representation of FOL formulae in Fregean notation by first translating operators to ~ and ->.
+Of note, I added a file called `operators.py`, with functions that translate a formula that uses one set of operators to one that uses a different set. This is similar to the file `operators.py` in Propositions, with the addition that it is used to allow representation of FOL formulae in Fregean notation by first translating operators to ~ and ->.
 
 `In [13]: from mltp.predicates.operators import to_implies_not`  
 
